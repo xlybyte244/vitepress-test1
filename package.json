@@ -1,0 +1,19 @@
+{
+  "name": "vitepress-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docx",
+    "docs:build": "vitepress build docx",
+    "docs:preview": "vitepress preview docx",
+    "side": "esno ./docx/script/sidebar.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "esno": "^4.7.0",
+    "vitepress": "^1.1.3"
+  }
+}

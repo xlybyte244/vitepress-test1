@@ -1,0 +1,25 @@
+/* var.css */
+/* :root {
+  --vp-c-brand-1: #18794e;
+  --vp-c-brand-2: #299764;
+  --vp-c-brand-3: #30a46c;
+}
+*/
+/* .dark {
+  --vp-c-brand-1: #3dd68c;
+  --vp-c-brand-2: #30a46c;
+  --vp-c-brand-3: #298459;
+}  */
+
+.VPSidebarItem.is-link.is-active .item .VPLink.link .text{
+  font-weight: bold;
+  color: #42b983;
+}
+.VPSidebar .VPSidebarItem.is-link .item .VPLink.link:hover .text{
+  color: #42b983;
+}
+
+/* md目录激活时 */
+.outline-link.active {
+  font-weight: bold;
+}
